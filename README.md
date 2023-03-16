@@ -1,1 +1,1 @@
-execute gcc -Wall -Wextra -Werror  main.c get_next_line/*.c ft_itoa.c  libmlx42.a -I includes -lglfw -L "/Users/$USER/.brew/opt/glfw/lib/" -fsanitize=address -g && ./a.out
+execute gcc -Wall -Wextra -Werror  main.c get_next_line/*.c ft_itoa.c key_hook.c ft_utils_key_hook.c init_textures.c init_map_size.c player.c enemy.c parsing.c libmlx42.a -I includes -lglfw -L "/Users/$USER/.brew/opt/glfw/lib/" -fsanitize=address -g && ./a.out maps/test.ber
